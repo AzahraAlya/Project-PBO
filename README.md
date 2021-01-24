@@ -15,7 +15,7 @@ mysql server (xampp recomended)
 netbean editor
 
 # Class Diagram
-classDiagram
+    classDiagram
     AkunPengguna <|-- Peminjam
     AkunPengguna <|-- Petugas
     AkunPengguna "1"--o"*" Buku : borrow
