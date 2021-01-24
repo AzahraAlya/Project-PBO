@@ -1,7 +1,7 @@
 # Project-PBO
-Jihan Cahya Fatimah 1917051016 (membuat class, subclass, dan )
-Azahra Alya Hidayah 1917051017 (membuat Design fxml)
-Dina Putri Aulia 1957041004 (membuat database)
+Jihan ( membuat class dan subclass, class buku, main class, membuat class diagram)
+Azahra (membuat desain fxml, class controller, datamodel, membuat ER diagram)
+Dina (Membuat database, koneksi DB helper, diagram database)
 
 # Sistem Peminjaman Buku
 Program ini merupakan program sistem peminjaman buku perpustakaan. 
