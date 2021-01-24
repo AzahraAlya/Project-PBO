@@ -13,7 +13,7 @@ Libraries and Tools of this project:
 
 mysql-connector-java-5.1.xx.jar
 sqlite-jdbc-3.32.jar
-scene builder
+scene builder-8.5.0
 mysql server (xampp recomended)
 netbean editor
 
