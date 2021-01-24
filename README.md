@@ -37,7 +37,7 @@ Libraries and Tools of this project:
       -String tanggalPinjam
     }
     
-   # ER Diagram
+# ER Diagram
      erDiagram
           AkunPengguna ||..|| Peminjam : is
           AkunPengguna||--|| Petugas : is
