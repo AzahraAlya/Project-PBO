@@ -5,3 +5,11 @@ Dina Putri Aulia 1957041004 (membuat database)
 
 # Sistem Peminjaman Buku
 Program ini merupakan program sistem peminjaman buku perpustakaan. Jika ingin meminjam buku harus membuat akun perpustakaan terlebih dahulu. Akun perpustakaan terdiri dari 2 jenis akun yaitu akun pengunjung dan akun petugas. Baik pengunjung maupun petugas boleh meminjam buku lebih dari satu buku.
+
+Libraries and Tools of this project:
+
+mysql-connector-java-5.1.xx.jar
+sqlite-jdbc-3.32.jar
+scene builder
+mysql server (xampp recomended)
+netbean editor
