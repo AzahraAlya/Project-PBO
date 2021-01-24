@@ -10,12 +10,12 @@ Akun perpustakaan terdiri dari 2 jenis akun yaitu akun pengunjung dan akun petug
 Baik pengunjung maupun petugas boleh meminjam buku lebih dari satu buku.
 
 Libraries and Tools of this project:
+•	mysql-connector-java-5.1.xx.jar 
+•	sqlite-jdbc-3.32.jar 
+•	scene builder-8.5.0 
+•	mysql server (xampp recomended) 
+•	netbean editor
 
-mysql-connector-java-5.1.xx.jar
-sqlite-jdbc-3.32.jar
-scene builder-8.5.0
-mysql server (xampp recomended)
-netbean editor
 
 # Class Diagram
     classDiagram
