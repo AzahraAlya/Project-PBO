@@ -61,3 +61,62 @@ netbean editor
       -int IDBuku
       -String judulBuku
     } 
+    
+   # Design Class Diagram for JavaFX and Database
+     classDiagram
+    AkunPengguna <|-- Peminjam
+    AkunPengguna <|-- Petugas
+    AkunPengguna "1"--o"*" Buku : borrow
+    AkunPengguna o-- DataModel : Data Modeling
+    DataModel <-- AkunPenggunaFormController : Data Control
+    DataModel --> DBHelper : DB Connection
+    AkunPenggunaFormController <.. AkunPenggunaForm : Form Control      
+
+    class AkunPengguna{
+      <<abstract>>
+      -IntegerProperty IDpengguna
+      -StringProperty nama
+      -StringProperty alamat
+      
+      +IntegerProperty nextID()
+    }
+    
+    class Peminjam{
+      -StringProperty jenisKelamin
+      -StringProperty tanggalPinjam
+    }
+    class Petugas{
+      -StringProperty contact
+    }
+    class Buku{
+      -IntegerProperty IDbuku
+      -StringProperty judulBuku
+      +String getJudulBuku()
+    }
+
+    class DataModel{
+        Connection conn
+        addAkunPengguna()
+        addBuku()
+        getPeminjam()
+        getPetugas()
+        nextAkunPenggunaID()
+    }
+
+    class AkunPenggunaFormController{
+        initialize()
+        handleButtonTambah()
+        handleSimpanButton()
+        loadDataPeminjam()
+        loadDataPetugas()
+        loadDataBuku()
+        handleHapusButton()
+    }
+    class DBHelper{
+        - String USERNAME
+        - String PASSWORD
+        - String DB
+        getConnection()
+        getConnection(String driver)
+    }
+
