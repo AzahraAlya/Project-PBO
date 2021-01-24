@@ -32,6 +32,28 @@ netbean editor
       -String jenisKelamin
       -String tanggalPinjam
     }
+    
+   # ER Diagram
+     erDiagram
+          AkunPengguna ||..|| Peminjam : is
+          AkunPengguna||--|| Petugas : is
+          AkunPengguna ||--|{ Buku: "borrow"
+          AkunPengguna {
+            int IDpengguna
+            string nama
+            string alamat
+          }
+          Peminjam {
+            string jenisKelamin
+            string tanggalPinjam
+          }
+          Petugas{
+            string contact
+          }
+          Buku{
+            int IDBuku
+            string judulBuku
+          }
     class Petugas{
       -String contact
     }
