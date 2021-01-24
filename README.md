@@ -13,3 +13,29 @@ sqlite-jdbc-3.32.jar
 scene builder
 mysql server (xampp recomended)
 netbean editor
+
+# Class Diagram
+classDiagram
+    AkunPengguna <|-- Peminjam
+    AkunPengguna <|-- Petugas
+    AkunPengguna "1"--o"*" Buku : borrow
+    
+    class AkunPengguna{
+      <<abstract>>
+      -int IDpengguna
+      -String nama
+      -String alamat
+      +int nextID()
+    }
+    
+    class Peminjam{
+      -String jenisKelamin
+      -String tanggalPinjam
+    }
+    class Petugas{
+      -String contact
+    }
+    class Buku{
+      -int IDBuku
+      -String judulBuku
+    } 
