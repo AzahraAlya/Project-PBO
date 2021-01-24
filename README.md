@@ -2,6 +2,7 @@
 Jihan ( membuat class dan subclass, class buku, main class, membuat class diagram)
 Azahra (membuat desain fxml, class controller, datamodel, membuat ER diagram)
 Dina (Membuat database, koneksi DB helper, diagram database)
+Link Penjelasan : https://youtu.be/LA9MSIeTNeA
 
 # Sistem Peminjaman Buku
 Program ini merupakan program sistem peminjaman buku perpustakaan. 
