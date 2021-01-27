@@ -19,7 +19,6 @@ Libraries and Tools of this project:
 
 
 # Class Diagram
-    classDiagram
     AkunPengguna <|-- Peminjam
     AkunPengguna <|-- Petugas
     AkunPengguna "1"--o"*" Buku : borrow
@@ -36,6 +35,13 @@ Libraries and Tools of this project:
       -String jenisKelamin
       -String tanggalPinjam
     }
+    class Petugas{
+      -String contact
+    }
+    class Buku{
+      -int IDBuku
+      -String judulBuku
+    } 
     
 # ER Diagram
      erDiagram
