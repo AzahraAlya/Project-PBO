@@ -64,13 +64,13 @@ Libraries and Tools of this project:
             int IDBuku
             string judulBuku
           }
-    class Petugas{
-      -String contact
-    }
-    class Buku{
-      -int IDBuku
-      -String judulBuku
-    } 
+            Petugas{
+            String contact
+          }
+            Buku{
+            int IDBuku
+            String judulBuku
+          } 
     
    # Design Class Diagram for JavaFX and Database
      classDiagram
