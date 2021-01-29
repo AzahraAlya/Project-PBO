@@ -20,11 +20,11 @@ Libraries and Tools of this project:
 
 # Class Diagram
 
-  classDiagram
+    
+    classDiagram
     AkunPengguna <|-- Peminjam
     AkunPengguna <|-- Petugas
     AkunPengguna "1"--o"*" Buku : borrow
-    
     class AkunPengguna{
       <<abstract>>
       -int IDpengguna
