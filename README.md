@@ -19,6 +19,7 @@ Libraries and Tools of this project:
 
 
 # Class Diagram
+
   classDiagram
     AkunPengguna <|-- Peminjam
     AkunPengguna <|-- Petugas
